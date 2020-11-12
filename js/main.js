@@ -336,7 +336,7 @@
                 }, {
                     type: "typedText",
                     content: "root",
-                    prefix: "Anuj Patel login: ",
+                    prefix: "Anuj patel login: ",
                     playSound: "init",
                     delay: 1500
                 }, {
@@ -379,7 +379,7 @@
                     delay: 1200
                 }, {
                     type: "continueTypedText",
-                    content: "but there's a part of you that's exhausted with this world...",
+                    content: "",
                     delay: 200
                 }, {
                     type: "continueTypedText",
@@ -566,20 +566,14 @@
                     delay: 500
                 }, i],
                 prepare: [{
-                    videoName: "prepare",
-                    type: "fullscreenVideo",
-                    cover: !0,
-                    sources: [{
-                        src: "video/prepare.webm",
-                        type: "video/webm"
-                    }, {
-                        src: "video/prepare.mp4",
-                        type: "video/mp4"
-                    }],
-                    track: {
-                        prop3: "Video"
-                    },
-                    delay: 400
+                    display: !0,
+                    navigate: !0,
+                    regex: /^prepare$/i,
+                    label: "prepare",
+                    description: null,
+                    onselect: function() {
+                        this.trigger("instructions:change", "prepare")
+                    }
                 }, {
                     type: "typedText",
                     content: 'Enter command. Type "help" to see a list of commands.',
@@ -1038,8 +1032,8 @@
                     question: "question",
                     wakeup: "wakeup",
                     join: "join",
-                    prepare: "prepare",
-                    fsociety: "fsociety",
+                    prepare: "About Me",
+                    fsociety: "",
                     menu: "menu",
                     "*path": "default"
                 }
