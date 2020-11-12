@@ -327,7 +327,7 @@
                 }, {
                     clear: !0,
                     type: "basicText",
-                    content: "Debian GNU/Linux 7 mrrobot ttyl",
+                    content: "Debian GNU/Linux 7 Anuj Patel ttyl",
                     delay: 1e3
                 }, {
                     type: "basicText",
@@ -336,7 +336,7 @@
                 }, {
                     type: "typedText",
                     content: "root",
-                    prefix: "mrrobot login: ",
+                    prefix: "Anuj Patel login: ",
                     playSound: "init",
                     delay: 1500
                 }, {
@@ -355,7 +355,7 @@
                     type: "basicText",
                     color: "#008c23",
                     prefixColor: "#008c23",
-                    content: "-!- friend_ [friend_@" + USER_IP + "] has joined #fsociety.",
+                    content: "-!- friend_ [friend_@" + USER_IP + "] .",
                     delay: 1e3
                 }, {
                     type: "basicText",
