@@ -114,7 +114,7 @@
             }],
             i = {
                 displayMenu: !0,
-                prefix: "root@fsociety:~# ",
+                prefix: "Anujpatel@root:~# ",
                 type: "userPrompt",
                 delay: 100,
                 prefixWeight: 700,
@@ -365,7 +365,7 @@
                     time: !0,
                     type: "typedText",
                     content: "Hello friend.",
-                    prefix: "<mr. robot>",
+                    prefix: "<Anuj Patel>",
                     prefixColor: "#008c23",
                     prefixWeight: 700,
                     delay: 800
@@ -425,14 +425,14 @@
                     clear: !0,
                     time: !0,
                     type: "typedText",
-                    prefix: "<mr. robot>",
+                    prefix: "<Anuj Patel>",
                     prefixColor: "#008c23",
                     content: "hello friend",
                     delay: 0
                 }, {
                     time: !0,
                     type: "typedText",
-                    prefix: "<mr. robot>",
+                    prefix: "<Anuj Patel>",
                     prefixColor: "#008c23",
                     content: "you don't know me, but I've been watching you.",
                     delay: 1200
@@ -467,7 +467,7 @@
                 }, {
                     time: !0,
                     type: "typedText",
-                    prefix: "<mr. robot>",
+                    prefix: "<Anuj Patel>",
                     prefixColor: "#008c23",
                     content: "if you're ready to join me, enter your email address.",
                     delay: 1e3
@@ -501,7 +501,7 @@
                 }, {
                     time: !0,
                     type: "typedText",
-                    prefix: "<mr. robot>",
+                    prefix: "<Anuj Patel>",
                     prefixColor: "#008c23",
                     content: "we will be in touch.",
                     delay: 1e3
@@ -513,7 +513,7 @@
                 }, {
                     type: "typedText",
                     content: 'Enter command. Type "help" to see a list of commands.',
-                    prefix: "root@fsociety:~# ",
+                    prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, {
                     type: "basicText",
@@ -525,8 +525,8 @@
                     galleryName: "FSociety Gallery",
                     track: {
                         prop3: "Gallery",
-                        prop5: "Mr. Robot : Who Is Mr. Robot : FSociety Gallery",
-                        pageName: "Mr. Robot : Who is Mr. Robot : FSociety Gallery : Photo 1"
+                        prop5: "Anuj Patel : Who Is Anuj Patel : FSociety Gallery",
+                        pageName: "Anuj Patel : Who is Anuj Patel : FSociety Gallery : Photo 1"
                     },
                     images: [{
                         src: "images/question/jefferson.jpg"
@@ -541,7 +541,7 @@
                 }, {
                     type: "typedText",
                     content: 'Enter command. Type "help" to see a list of commands.',
-                    prefix: "root@fsociety:~# ",
+                    prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, i],
                 fsociety: [{
@@ -562,7 +562,7 @@
                 }, {
                     type: "typedText",
                     content: 'Enter command. Type "help" to see a list of commands.',
-                    prefix: "root@fsociety:~# ",
+                    prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, i],
                 prepare: [{
@@ -583,7 +583,7 @@
                 }, {
                     type: "typedText",
                     content: 'Enter command. Type "help" to see a list of commands.',
-                    prefix: "root@fsociety:~# ",
+                    prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, i],
                 wakeup: [{
@@ -604,7 +604,7 @@
                 }, {
                     type: "typedText",
                     content: 'Enter command. Type "help" to see a list of commands.',
-                    prefix: "root@fsociety:~# ",
+                    prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, i],
                 420: [{
@@ -612,8 +612,8 @@
                     galleryName: "420 Hidden Image",
                     track: {
                         prop3: "Gallery",
-                        prop5: "Mr. Robot : Who is Mr. Robot : 420 Hidden Image",
-                        pageName: "Mr. Robot : Who is Mr. Robot : 420 Hidden Image"
+                        prop5: "Anuj Patel : Who is Anuj Patel : 420 Hidden Image",
+                        pageName: "Anuj Patel : Who is Anuj Patel : 420 Hidden Image"
                     },
                     images: [{
                         src: "images/420/420.jpg"
@@ -622,7 +622,7 @@
                 }, {
                     type: "typedText",
                     content: 'Enter command. Type "help" to see a list of commands.',
-                    prefix: "root@fsociety:~# ",
+                    prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, i],
                 inform: [{
@@ -630,8 +630,8 @@
                     galleryName: "Inform Gallery",
                     track: {
                         prop3: "Gallery",
-                        prop5: "Mr. Robot : Who Is Mr. Robot : Inform Gallery",
-                        pageName: "Mr. Robot : Who is Mr. Robot : Inform Gallery : Photo 1"
+                        prop5: "Anuj Patel : Who Is Anuj Patel : Inform Gallery",
+                        pageName: "Anuj Patel : Who is Anuj Patel : Inform Gallery : Photo 1"
                     },
                     images: [{
                         src: "images/headlines/deflategate.jpg"
@@ -645,13 +645,13 @@
                 }, {
                     type: "typedText",
                     content: 'Enter command. Type "help" to see a list of commands.',
-                    prefix: "root@fsociety:~# ",
+                    prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, i],
                 menuPrompt: [{
                     type: "typedText",
                     content: 'Enter command. Type "help" to see a list of commands.',
-                    prefix: "root@fsociety:~# ",
+                    prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, i],
                 live: [{
@@ -1004,8 +1004,8 @@
             i = function() {
                 this.omni = function(t, e, n) {
                     this.nullify();
-                    var i = "Mr. Robot",
-                        o = "Who Is Mr. Robot",
+                    var i = "Anuj Patel",
+                        o = "Who Is Anuj Patel",
                         a = function() {
                             var t, e = Array.prototype.slice.call(arguments);
                             return t = (i + " : " + o + " : " + e.join(" : ")).replace(/\ : $/, "")
