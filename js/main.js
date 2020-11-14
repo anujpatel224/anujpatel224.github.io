@@ -989,7 +989,7 @@
                     420: "420",
                     Certifications: "Certifications",
                     projects: "projects",
-                    skill_abilities: "skill_abilities",
+                    skills: "skills",
                     About: "About",
                     menu: "menu",
                     "*path": "default"
