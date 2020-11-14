@@ -60,47 +60,38 @@
             }, {
                 display: !0,
                 navigate: !1,
-                regex: /^prepare$/i,
-                label: "prepare",
+                regex: /^About_me$/i,
+                label: "About_me",
                 description: null,
                 onselect: function() {
-                    this.trigger("instructions:change", "prepare")
+                    this.trigger("instructions:change", "About_me")
                 }
             }, {
                 display: !0,
                 navigate: !0,
-                regex: /^fsociety$/i,
-                label: "fsociety",
+                regex: /^Personal_Profile$/i,
+                label: "Personal_Profile",
                 description: null,
                 onselect: function() {
-                    this.trigger("instructions:change", "fsociety")
+                    this.trigger("instructions:change", "Personal_Profile")
                 }
             }, {
                 display: !0,
                 navigate: !0,
-                regex: /^inform$/i,
-                label: "inform",
+                regex: /^Certifications$/i,
+                label: "Certifications",
                 description: null,
                 onselect: function() {
-                    this.trigger("instructions:change", "inform")
+                    this.trigger("instructions:change", "Certifications")
                 }
             }, {
                 display: !0,
                 navigate: !0,
-                regex: /^question$/i,
-                label: "question",
+                regex: /^Educational_Qualifications$/i,
+                label: "Educational_Qualifications",
                 description: null,
                 onselect: function() {
-                    this.trigger("instructions:change", "question")
-                }
-            }, {
-                display: !0,
-                navigate: !0,
-                regex: /^wakeup$/i,
-                label: "wakeup",
-                description: null,
-                onselect: function() {
-                    this.trigger("instructions:change", "wakeup")
+                    this.trigger("instructions:change", "Educational_Qualifications")
                 }
             }, {
                 display: !0,
@@ -327,7 +318,7 @@
                 }, {
                     clear: !0,
                     type: "basicText",
-                    content: "Debian GNU/Linux 7 Anuj Patel ttyl",
+                    content: "Debian GNU/Linux 7  ttyl",
                     delay: 1e3
                 }, {
                     type: "basicText",
@@ -336,12 +327,12 @@
                 }, {
                     type: "typedText",
                     content: "root",
-                    prefix: "Anuj patel login: ",
+                    prefix: "login: ",
                     playSound: "init",
                     delay: 1500
                 }, {
                     type: "typedText",
-                    content: "â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢",
+                    content: "************************",
                     prefix: "password: ",
                     delay: 500
                 }, {
@@ -383,31 +374,31 @@
                     delay: 200
                 }, {
                     type: "continueTypedText",
-                    content: "a world that decides where you work,",
+                    content: "so let's find out.",
                     delay: 1e3
                 }, {
                     type: "continueTypedText",
-                    content: "who you see,",
+                    content: "Are",
                     delay: 500
                 }, {
                     type: "continueTypedText",
-                    content: "and how you empty and fill your depressing bank account.",
+                    content: "you looking for someone who is passionate about their work.",
                     delay: 800
                 }, {
                     type: "continueTypedText",
-                    content: "Even the Internet connection you're using to read this is costing you, slowly chipping away at your existence.",
+                    content: "Someone who Never gives up and have ton of patience.",
                     delay: 1e3
                 }, {
                     type: "continueTypedText",
-                    content: "There are things you want to say.",
+                    content: "There are things you want to know.",
                     delay: 600
                 }, {
                     type: "continueTypedText",
-                    content: "Soon I will give you a voice.",
+                    content: "You will see some commands on your  ",
                     delay: 600
                 }, {
                     type: "continueTypedText",
-                    content: "Today your education begins.",
+                    content: "screen which will help you to know me better.",
                     delay: 600
                 }, {
                     type: "menuOptions",
@@ -418,20 +409,20 @@
                 }, i],
                 join: [{
                     clear: !0,
-                    type: "basicText",
+                    type: "continueTypedText",
                     content: "",
                     delay: 200
                 }, {
                     clear: !0,
                     time: !0,
-                    type: "typedText",
+                    type: "continueTypedText",
                     prefix: "<Anuj Patel>",
                     prefixColor: "#008c23",
                     content: "hello friend",
                     delay: 0
                 }, {
                     time: !0,
-                    type: "typedText",
+                    type: "continueTypedText",
                     prefix: "<Anuj Patel>",
                     prefixColor: "#008c23",
                     content: "you don't know me, but I've been watching you.",
@@ -466,10 +457,10 @@
                     delay: 1200
                 }, {
                     time: !0,
-                    type: "typedText",
+                    type: "continueTypedText",
                     prefix: "<Anuj Patel>",
                     prefixColor: "#008c23",
-                    content: "if you're ready to join me, enter your email address.",
+                    content: "if you're willing to hire me, enter your email address.",
                     delay: 1e3
                 }, {
                     type: "basicText",
@@ -513,6 +504,7 @@
                 }, {
                     type: "typedText",
                     content: 'Enter command. Type "help" to see a list of commands.',
+                    prefixColor: "#008c23",
                     prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, {
@@ -520,22 +512,26 @@
                     content: "&nbsp;",
                     delay: 200
                 }, i],
-                question: [{
+                Certifications: [{
                     type: "imageGallery",
-                    galleryName: "FSociety Gallery",
+                    galleryName: "certificate Gallery",
                     track: {
                         prop3: "Gallery",
-                        prop5: "Anuj Patel : Who Is Anuj Patel : FSociety Gallery",
-                        pageName: "Anuj Patel : Who is Anuj Patel : FSociety Gallery : Photo 1"
+                        prop5: "Anuj Patel : Who Is Anuj Patel : Gallery",
+                        pageName: "Anuj Patel : Who is Anuj Patel : Gallery : Photo 1"
                     },
                     images: [{
-                        src: "images/question/jefferson.jpg"
+                        src: "images/Certifications/BBHT.jpg"
                     }, {
-                        src: "images/question/steals.jpg"
+                        src: "images/Certifications/Kali.jpg"
                     }, {
-                        src: "images/question/madoff.jpg"
+                        src: "images/Certifications/CCNA.jpg"
                     }, {
-                        src: "images/question/owned.jpg"
+                        src: "images/Certifications/Coursera.jpg"
+                    },  {
+                        src: "images/Certifications/Coursera_1.jpg"
+                    }, {
+                        src: "images/Certifications/Coursera_2.jpg"
                     }],
                     delay: 800
                 }, {
@@ -543,36 +539,16 @@
                     content: 'Enter command. Type "help" to see a list of commands.',
                     prefix: "Anujpatel@root:~# ",
                     delay: 500
-                }, i],
-                fsociety: [{
-                    videoName: "fsociety",
-                    type: "fullscreenVideo",
-                    cover: !0,
-                    sources: [{
-                        src: "video/fsociety.webm",
-                        type: "video/webm"
-                    }, {
-                        src: "video/fsociety.mp4",
-                        type: "video/mp4"
-                    }],
-                    track: {
-                        prop3: "Video"
-                    },
-                    delay: 400
-                }, {
-                    type: "typedText",
-                    content: 'Enter command. Type "help" to see a list of commands.',
-                    prefix: "Anujpatel@root:~# ",
-                    delay: 500
-                }, i],
-                prepare: [{
+                }, i]
+                ,
+                About_me: [{
                     display: !0,
                     navigate: !0,
-                    regex: /^prepare$/i,
-                    label: "prepare",
+                    regex: /^About_me$/i,
+                    label: "About_me",
                     description: null,
                     onselect: function() {
-                        this.trigger("instructions:change", "prepare")
+                        this.trigger("instructions:change", "About_me")
                     }
                 }, {
                     type: "typedText",
@@ -580,15 +556,15 @@
                     prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, i],
-                wakeup: [{
-                    videoName: "wakeup",
+                Educational_Qualifications: [{
+                    videoName: "Educational_Qualifications",
                     type: "fullscreenVideo",
                     cover: !0,
                     sources: [{
-                        src: "video/wakeup.webm",
+                        src: "video/Educational_Qualifications.webm",
                         type: "video/webm"
                     }, {
-                        src: "video/wakeup.mp4",
+                        src: "video/Educational_Qualifications.mp4",
                         type: "video/mp4"
                     }],
                     track: {
@@ -601,25 +577,7 @@
                     prefix: "Anujpatel@root:~# ",
                     delay: 500
                 }, i],
-                420: [{
-                    type: "imageGallery",
-                    galleryName: "420 Hidden Image",
-                    track: {
-                        prop3: "Gallery",
-                        prop5: "Anuj Patel : Who is Anuj Patel : 420 Hidden Image",
-                        pageName: "Anuj Patel : Who is Anuj Patel : 420 Hidden Image"
-                    },
-                    images: [{
-                        src: "images/420/420.jpg"
-                    }],
-                    delay: 400
-                }, {
-                    type: "typedText",
-                    content: 'Enter command. Type "help" to see a list of commands.',
-                    prefix: "Anujpatel@root:~# ",
-                    delay: 500
-                }, i],
-                inform: [{
+                Personal_Profile: [{
                     type: "imageGallery",
                     galleryName: "Inform Gallery",
                     track: {
@@ -1027,13 +985,12 @@
         var c = i.Router.extend({
                 routes: {
                     "": "",
-                    inform: "inform",
+                    Personal_Profile : "Personal_Profile",
                     420: "420",
-                    question: "question",
-                    wakeup: "wakeup",
-                    join: "join",
-                    prepare: "About Me",
-                    fsociety: "",
+                    Certifications: "Certifications",
+                    projects: "projects",
+                    skill_abilities: "skill_abilities",
+                    About_Me: "About_Me",
                     menu: "menu",
                     "*path": "default"
                 }
