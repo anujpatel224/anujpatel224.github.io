@@ -60,17 +60,17 @@
             }, {
                 display: !0,
                 navigate: !1,
-                regex: /^About_me$/i,
-                label: "About_me",
+                regex: /^About$/i,
+                label: "About",
                 description: null,
                 onselect: function() {
-                    this.trigger("instructions:change", "About_me")
+                    this.trigger("instructions:change", "About")
                 }
             }, {
                 display: !0,
                 navigate: !0,
-                regex: /^Personal_Profile$/i,
-                label: "Personal_Profile",
+                regex: /^Profile$/i,
+                label: "Profile",
                 description: null,
                 onselect: function() {
                     this.trigger("instructions:change", "Personal_Profile")
@@ -87,11 +87,11 @@
             }, {
                 display: !0,
                 navigate: !0,
-                regex: /^Educational_Qualifications$/i,
-                label: "Educational_Qualifications",
+                regex: /^Educational$/i,
+                label: "Educational",
                 description: null,
                 onselect: function() {
-                    this.trigger("instructions:change", "Educational_Qualifications")
+                    this.trigger("instructions:change", "Educational")
                 }
             }, {
                 display: !0,
@@ -541,14 +541,14 @@
                     delay: 500
                 }, i]
                 ,
-                About_me: [{
+                About: [{
                     display: !0,
                     navigate: !0,
-                    regex: /^About_me$/i,
-                    label: "About_me",
+                    regex: /^About$/i,
+                    label: "About",
                     description: null,
                     onselect: function() {
-                        this.trigger("instructions:change", "About_me")
+                        this.trigger("instructions:change", "About")
                     }
                 }, {
                     type: "typedText",
@@ -990,7 +990,7 @@
                     Certifications: "Certifications",
                     projects: "projects",
                     skill_abilities: "skill_abilities",
-                    About_Me: "About_Me",
+                    About: "About",
                     menu: "menu",
                     "*path": "default"
                 }
